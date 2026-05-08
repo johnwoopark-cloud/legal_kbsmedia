@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HR Data Portal 메뉴</title>
+    <style>
+        body {
+            background-color: #1a233a; /* 배경색 유지 */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, Roboto, sans-serif;
+        }
+
+        .container {
+            background-color: white;
+            width: 400px;
+            padding: 30px;
+            border-radius: 30px;
+            text-align: center;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        }
+
+        .menu-link {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 18px 20px;
+            margin-bottom: 15px;
+            border-radius: 12px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 16px;
+            border: 1px solid transparent;
+            transition: all 0.2s ease;
+        }
+
+        .menu-link:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+        }
+
+        .sub-desc {
+            font-size: 12px;
+            font-weight: normal;
+            opacity: 0.8;
+        }
+
+        /* 메뉴별 색상 스타일 */
+        .report { background-color: #fff5e9; color: #ff8c00; border-color: #ffd8a8; }
+        .plan { background-color: #f3f0ff; color: #7950f2; border-color: #d0bfff; }
+        .ai-service { background-color: #ebfbee; color: #2f9e44; border-color: #b2f2bb; }
+        .car-limit { background-color: #f8f9fa; color: #495057; border-color: #dee2e6; }
+
+        .footer {
+            margin-top: 25px;
+            font-size: 13px;
+            color: #adb5bd;
+            border-top: 1px solid #f1f3f5;
+            padding-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <a href="여기에_링크를_입력하세요" class="menu-link report">
+        <span>법무 저작권 뉴스</span>
+        <span class="sub-desc">매일 업데이트</span>
+    </a>
+
+    <a href="여기에_링크를_입력하세요" class="menu-link plan">
+        <span>업무 현황 및 미팅 계획</span>
+        <span class="sub-desc">매주 수요일 퇴근 전까지</span>
+    </a>
+
+    <a href="여기에_링크를_입력하세요" class="menu-link ai-service">
+        <span>소송 등 일정 공유</span>
+        <span class="sub-desc">매일 업데이트</span>
+    </a>
+
+    <a href="여기에_링크를_입력하세요" class="menu-link car-limit">
+        <span>저작권 단속 현황</span>
+        <span></span>
+    </a>
+
+    <div class="footer">
+        KBS미디어 법무저작권팀
+    </div>
+</div>
+
+</body>
+</html>
